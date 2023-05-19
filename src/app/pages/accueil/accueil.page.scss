@@ -1,0 +1,52 @@
+ion-content {
+    --ion-background-color: linear-gradient(to right, #0097b2, #7ed957);
+    height: 100vh;
+}
+
+.rushticket {
+    --background: #000000;
+
+}
+
+.speedyshop {
+    --background: #0F0550;
+}
+
+.instanthouse {
+    --background: #5F95D7;
+}
+
+/* .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    --background: transparent !important;
+    padding-top: 10%;
+
+} */
+
+.card ion-card {
+    img {
+        height: 70%x;
+
+    }
+
+    width: 70%;
+    margin: 20px auto;
+    height: 70%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-plus {
+    --background: #FEB06A;
+    --border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    width: 60%;
+    margin: 0 35px;
+
+}

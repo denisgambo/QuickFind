@@ -1,0 +1,45 @@
+<ion-content [fullscreen]="true">
+
+    <!-- <div class="logo">
+        <img src="./assets/logos/QuickFind (1).png" />
+    </div> -->
+    <div class="flex-center">
+        <ion-card class="ion-no-border">
+
+            <ion-card-header>
+                <!-- <img src="./assets/logos/QuickFind (1).png" /> -->
+                <ion-card-title>
+                    <h2>Se Connecter</h2>
+                </ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+                <form>
+                    <ion-input type="email" placeholder="Email"></ion-input>
+                    <ion-input type="password" placeholder="Password"></ion-input>
+                    <ion-button class="btn-submit" (click)="goto_accueil()"> Se connecter</ion-button>
+                </form><br><br><br>
+                <div class="ion-text-center btn-clear">
+                    <ion-button fill="clear">
+                        Mot de passe oublié ?
+                    </ion-button>
+
+                    <ion-button fill="clear" (click)="goto_new_account()">
+                        Créer un compte
+                    </ion-button>
+                    <p>Se connecter avec</p>
+                    <div class="social">
+                        <ion-button fill="clear">
+                            <ion-icon name="logo-google" class="logo-google"></ion-icon>
+                        </ion-button>
+                        <ion-button fill="clear">
+                            <ion-icon name="logo-facebook" class="logo-facebook"></ion-icon>
+                        </ion-button>
+                        <ion-button fill="clear">
+                            <ion-icon name="logo-twitter" class="logo-twitter"></ion-icon>
+                        </ion-button>
+                    </div>
+                </div>
+            </ion-card-content>
+        </ion-card>
+    </div>
+</ion-content>

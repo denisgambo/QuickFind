@@ -1,0 +1,97 @@
+ion-header ion-toolbar {
+  --background: transparent;
+}
+
+ion-content {
+  --ion-background-color: linear-gradient(to right, #0097b2, #7ed957);
+  height: 100vh;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  --background: transparent !important;
+  padding-top: 10%;
+
+}
+
+ion-card {
+  --background: transparent !important;
+  --color: #FFFFFF;
+  width: 100%;
+
+
+  /*  img {
+    width: 100%;
+    margin-top: 60px;
+  } */
+
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+
+form {
+  // margin-bottom: 22px;
+
+  ion-input {
+    --background: #d8cbcb;
+    --padding-start: 33px;
+    --border-radius: 20px;
+    margin-bottom: 22px;
+    --placeholder-color: #FFFFFF;
+    --height: 55px !important;
+  }
+}
+
+/* ion-input {
+  --background: #ffffff;
+  --border-radius: 20px;
+  --height: 20px !important;
+  --width: 60% !important;
+  color: black;
+  width: 100%;
+  padding: 0px;
+  line-height: 10px;
+} */
+
+/* ion-item {
+  --background: transparent !important;
+
+} */
+
+.btn-submit {
+  --background: #FEB06A;
+  --border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.btn-clear {
+  ion-button {
+    color: white;
+  }
+}
+
+/* .social {
+  display: flex;
+  justify-content: space-around;
+} */
+
+.logo-google {
+  color: #DD4F43;
+}
+
+.logo-facebook {
+  color: #1877F2;
+}

@@ -1,0 +1,65 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>new-account</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!--   <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">new-account</ion-title>
+    </ion-toolbar>
+  </ion-header> -->
+
+  <div class="flex-center">
+    <ion-card class="ion-no-border">
+
+      <ion-card-header>
+        <!-- <img src="./assets/logos/QuickFind (1).png" /> -->
+        <ion-card-title>
+          <h2 class="btn-clear">Créer un compte</h2>
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>Avez-vous déjà un compte ?</p>
+        <div class="btn-clear">
+          <ion-button fill="clear">Se connecter</ion-button>
+        </div>
+        <form>
+          <ion-label>NOM</ion-label>
+          <ion-input type="text" placeholder="Votre nom"></ion-input>
+          <ion-label>PRENOM</ion-label>
+          <ion-input type="text" placeholder="Votre prénom"></ion-input>
+
+          <ion-label>N° TELEPHONE</ion-label>
+          <ion-input type="text" placeholder="Votre n° de téléphone"></ion-input>
+
+          <ion-label>EMAIL</ion-label>
+          <ion-input type="email" placeholder="exemple@gmail.com"></ion-input>
+
+          <ion-label>MOT DE PASSE</ion-label>
+          <ion-input type="password" placeholder="********"></ion-input>
+          <ion-button class="btn-submit"> Créer un compte</ion-button>
+        </form><br><br><br>
+        <div class="ion-text-center btn-clear">
+
+          <p>Se connecter avec</p>
+          <div class="social">
+            <ion-button fill="clear">
+              <ion-icon name="logo-google" class="logo-google"></ion-icon>
+            </ion-button>
+            <ion-button fill="clear">
+              <ion-icon name="logo-facebook" class="logo-facebook"></ion-icon>
+            </ion-button>
+            <ion-button fill="clear">
+              <ion-icon name="logo-twitter" class="logo-twitter"></ion-icon>
+            </ion-button>
+          </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
